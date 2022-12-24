@@ -6,11 +6,14 @@ import javax.swing.JOptionPane;
 
 public class Runner {
 
+<<<<<<< HEAD
     
     /** 
      * @param args
      * @throws Exception
      */
+=======
+>>>>>>> 96ef375 (Proyecto)
     public static void main(String[] args) throws Exception {
         new Runner().menu();   
         
@@ -259,7 +262,11 @@ public class Runner {
         return textString;        
     }
     //FOURTH METHOD
+<<<<<<< HEAD
     public static void narcissisticNumber(){
+=======
+    private static void narcissisticNumber(){
+>>>>>>> 96ef375 (Proyecto)
         
         int number = 0;
         boolean condition = true;
@@ -368,7 +375,11 @@ public class Runner {
     public static void date(){
         try {
             String nameMonth = "";
+<<<<<<< HEAD
             String dateString = JOptionPane.showInputDialog("Enter a date. dd/mm/yyyy");                
+=======
+            String dateString = JOptionPane.showInputDialog("Enter a date\n dd/mm/yyyy");                
+>>>>>>> 96ef375 (Proyecto)
 
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
             LocalDate date = LocalDate.parse(dateString, formatter);
